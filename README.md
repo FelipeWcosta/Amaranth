@@ -8,5 +8,4 @@
  ```
  Pay attention and check if your Python version is compatible. You can find more details [here][def].
 
-
-[def]: https://amaranth-lang.org/docs/amaranth/latest/install.html
+ [def]: https://amaranth-lang.org/docs/amaranth/latest/install.html

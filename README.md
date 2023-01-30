@@ -10,4 +10,4 @@
 
  [def]: https://amaranth-lang.org/docs/amaranth/latest/install.html
 
- **to be continued**
+ **to be continued...**

@@ -6,3 +6,4 @@
  ```
     py -m pip install amaranth
  ```
+ Pay attention and check if your Python version is compatible.

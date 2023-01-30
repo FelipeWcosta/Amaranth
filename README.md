@@ -1,2 +1,8 @@
 # Amaranth
  Repository with Amaranth HDL toolchain tutorials
+## Resolving the dependencies
+ Using the Visual Studio Code editor, Amaranth HDL toolchain can be installed using the following 
+ command line using PyPI:
+ ```
+    py -m pip install amaranth
+ ```

@@ -9,5 +9,10 @@
  Pay attention and check if your Python version is compatible. You can find more details [here][def].
 
  [def]: https://amaranth-lang.org/docs/amaranth/latest/install.html
+ 
+ For working with *domains* Visual Studio Code is not working well. So we migrated to Google Colab, you can install Amaranth HDL toolchain with:
+ ```
+   !pip install amaranth
+ ```
 
  **To be continued...**

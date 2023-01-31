@@ -14,5 +14,6 @@
  ```
    !pip install amaranth
  ```
+ ## Creating a *module*
 
  **To be continued...**

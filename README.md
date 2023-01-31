@@ -14,6 +14,23 @@
  ```
    !pip install amaranth
  ```
- ## Creating a *module*
+ ## Creating a `module`
+  In the Google Colab script, you must install Amaranth in order to create a new `module` as follows:
+  ```
+   !pip install amaranth
+  ```
+  ```
+   from amaranth import Elaboratable, Module
+   from amaranth.build import Platform
+
+
+   class ThingBlock(Elaboratable):
+       def __init__(self):
+           pass
+
+       def elaborate(self, platform: Platform) -> Module:
+           m = Module()
+           return m
+  ```
 
  **To be continued...**

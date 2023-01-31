@@ -6,3 +6,5 @@ class Direction(enum.Enum):
     BOTTOM = 2
     RIGHT = 3
 print(Shape.cast(Direction))
+print(Value.cast(5))
+print(Value.cast(Direction.LEFT))

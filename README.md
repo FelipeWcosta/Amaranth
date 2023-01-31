@@ -33,7 +33,7 @@
            return m
   ```
   ```
-  from amaranth import ClockDomain, Module
+  from amaranth import ClockDomain
   from amaranth.cli import main
   import sys
 

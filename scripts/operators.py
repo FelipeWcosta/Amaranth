@@ -1,0 +1,15 @@
+from amaranth import *
+a = Signal(8, reset = 5)
+print(a + 1)
+b = Signal(8)
+print((b + 1).shape())
+c = Signal(unsigned(8))
+d = Signal(signed(8))
+print((c + d).shape())
+print((1 << C(0, 32)).shape())
+en = Signal()
+addr = Signal(8)
+print(en & (addr == 0))
+stb = Signal()
+use_stb = True
+print((not use_stb) | stb)

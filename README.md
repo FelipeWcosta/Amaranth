@@ -10,7 +10,7 @@
 
  [def]: https://amaranth-lang.org/docs/amaranth/latest/install.html
  
- For working with *domains* Visual Studio Code is not working well. So we migrated to Google Colab, you can install Amaranth HDL toolchain with:
+ For working with *domains* Visual Studio Code is not working well locally. So we migrated to Google Colab, you can install Amaranth HDL toolchain with:
  ```
    !pip install amaranth
  ```

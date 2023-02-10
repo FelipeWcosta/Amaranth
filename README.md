@@ -32,26 +32,5 @@
            m = Module()
            return m
   ```
-  ```
-  from amaranth import ClockDomain
-  from amaranth.cli import main
-  import sys
-
-
-  sys.argv=['']
-  del sys
-
-
-  if __name__ == "__main__":
-      sync = ClockDomain()
-
-      block = ThingBlock()
-
-      m = Module()
-      m.domains += sync
-      m.submodules += block
-
-      main(m, ports=[sync.clk, sync.rst])
-  ```
 
  **To be continued...**
